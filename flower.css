@@ -1,0 +1,54 @@
+/* Font Family */
+/* 1) Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: normal;
+}
+
+/* 2) Noto Serif */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+/* Share my style evrery where */
+.display-flex{
+    display: flex;
+}
+
+.flower-logo{
+    height: 82px;
+    width: 135px;
+}
+
+.navbar{
+    margin-top: 30px;
+    height: 71px;
+    width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.nav-links{
+    gap: 48px;
+}
+
+.nav-item{
+    list-style: none;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+}
