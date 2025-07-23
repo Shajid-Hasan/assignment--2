@@ -5,7 +5,6 @@
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    /* font-weight: bold; */
     font-style: normal;
 }
 
@@ -21,9 +20,42 @@
 }
 
 /* Share my style evrery where */
+
+/* Flex Property */
+
 .display-flex{
     display: flex;
 }
+
+/* Color Property */
+
+.praimary-color{
+    color: #252432;
+}
+
+.secondary-color{
+    color: #8987A1;
+}
+
+.tertiary-color{
+    color: #000000;
+}
+
+.praimary-color-1{
+    color: #E95A08;
+}
+
+.secondary-color-1{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Font Weight */
+
+.font-weight{
+    font-weight: bold;
+}
+
+/* Navigation Section */
 
 .flower-logo{
     height: 82px;
@@ -51,4 +83,33 @@
 
 .nav-link{
     text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Banner Section */
+
+.flower-banner{
+    height: 461px;
+    width: 1140px;
+    border: 1px solid red;
+}
+
+.banner-container{
+    height: 299px;
+    width: 570px;
+    border: 1px solid red;
+}
+
+.flower-banner-T{
+    height: 89px;
+    width: 517px;
+    font-size: 4rem;
+}
+
+.flower-banner-P{
+    height: 108px;
+    width: 405px;
+    font-size: 1rem;
+    margin-top: 70px;
+
 }
