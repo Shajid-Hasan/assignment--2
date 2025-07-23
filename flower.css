@@ -91,13 +91,15 @@
 .flower-banner{
     height: 461px;
     width: 1140px;
-    border: 1px solid red;
+    margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 .banner-container{
     height: 299px;
     width: 570px;
-    border: 1px solid red;
+    margin-top: 162px;
+    /* border: 1px solid red; */
 }
 
 .flower-banner-T{
@@ -111,5 +113,10 @@
     width: 405px;
     font-size: 1rem;
     margin-top: 70px;
+}
 
+.banner-img{
+    height: 355px;
+    width: 570px;
+    margin-top: 106px;
 }
