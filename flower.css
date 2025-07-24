@@ -154,14 +154,6 @@
 
 /* Plant Section */
 
-/* .plant-section{
-    height: 1186px;
-    width: 1140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .plant-head{
     height: 138px;
     width: 1140px;
@@ -258,4 +250,178 @@
     position: absolute;
     margin-left: 27%;
     margin-top: -9%;
+}
+
+/* latest Deal Section */
+
+.latest-deal-container{
+    height: 190px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+}
+
+.latest-deal-T{
+    font-size: 3rem;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.latest-deal-P{
+    height: 54px;
+    width: 888px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -30px;
+    font-size: 1rem;
+    /* border: 1px solid red; */
+}
+
+/* Plant Shop */
+
+.plant-shop{
+    height: 423px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bloom{
+    height: 201px;
+    width: 367px;
+    z-index: -4;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.ana{
+    height: 201px;
+    width: 367px;
+    z-index: -4;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.zabo{
+    height: 405px;
+    width: 753px;
+    z-index: -4;
+    opacity: 0.9;
+    border-radius: 15px;
+    
+}
+
+.absulate{
+    height: 27px;
+    width: 270px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 5%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.absulate-1{
+    height: 27px;
+    width: 270px;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 9%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    z-index: 1;
+}
+.absulate-2{
+    height: 27px;
+    width: 270px;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: -16%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    z-index: 1;
+}
+.absulate-3{
+    height: 27px;
+    width: 350px;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 11%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.5rem;
+    z-index: 1;
+}
+.absulate-4{
+    height: 27px;
+    width: 270px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 19%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+/* Colorful Bounch Section */
+
+.colorful-bounch{
+    /* background-image: url(assets/news-letter-bg.png); */
+    height: 533px;
+    width: 1440px;
+}
+
+.colorful-bounch-T{
+    /* width: 1440px; */
+    color: #FFFFFF;
+    font-size: 3.4rem;
+    text-align: center;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin: 15% 20% 20% 30%;
+}
+
+.box{
+    height: 50px;
+    width: 644px;
+    position: absolute;
+    margin: 20% 20% 20% 22%;
+    color: #FFFFFF;
+}
+
+.btn-2{
+    height: 53px;
+    width: 180px;
+    position: absolute;
+    border: none;
+    margin: 20.1% 20% 20% 67%;
+    color: #FFFFFF;
+}
+
+/* Footer */
+
+.part-1{
+    height: 179px;
+    width: 359px;
+    color: gray;
+    /* border: 1px solid red; */
+}
+
+.item{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+}
+
+.part-2{
+    justify-content: space-between;
+    gap: 100px;
 }
