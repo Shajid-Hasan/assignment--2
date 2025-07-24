@@ -120,3 +120,37 @@
     width: 570px;
     margin-top: 106px;
 }
+
+/* Plant Section */
+
+/* .plant-section{
+    height: 1186px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.plant-head{
+    height: 138px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.plant-T{
+    font-size: 3.1rem;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.plant-P{
+    height: 54px;
+    width: 540px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
