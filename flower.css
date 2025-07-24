@@ -212,3 +212,50 @@
 }
 
 /* Plants Lover Section */
+
+.plant-lover-container{
+    height: 530px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+    /* border: 1px solid red; */
+}
+
+.plant-section{
+    gap: 100px;
+}
+
+.flower-image{
+    height: 520px;
+    width: 540px;
+    /* position: absolute; */
+}
+
+.plant-lover-details{
+    height: 500px;
+    width: 540px;
+    margin: 20px 0 28px 0;
+    /* border: 1px solid red; */
+}
+.plant-lover-T{
+    height: 137px;
+    width: 360px;
+    font-size: 3.1rem;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.plant-lover-P{
+    height: 108px;
+    width: 540px;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.badges{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: -9%;
+}
