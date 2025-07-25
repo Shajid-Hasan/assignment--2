@@ -447,3 +447,30 @@
     width: 200px;
     gap: 20px;
 }
+
+/* Responsive Small device */
+
+@media screen and (max-width : 576px) {
+    .navbar, .nav-links, .flower-banner{
+        margin: none;
+        flex-direction: column;
+    }
+    .navbar{
+        display: block;
+        margin-bottom: 170px;
+    }
+
+    .flower-logo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .banner-img{
+        height: 245px;
+        width: 293px;
+        margin-top: -30px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+}
