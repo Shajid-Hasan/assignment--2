@@ -451,9 +451,8 @@
 /* Responsive Small device */
 
 @media screen and (max-width : 576px) {
-    /* *{
-        width: 576px;
-    } */
+    
+    /* Navbar */
 
     .navbar, .nav-links, .flower-banner{
         margin: none;
@@ -473,6 +472,8 @@
         width: 100px;
     }
 
+    /* Banner */
+
     .flower-banner-T{
         margin-top: 170px;
         font-size: 2.5rem;
@@ -488,15 +489,142 @@
         margin-top: -530px;
     }
 
+    /* Plants section */
+    
     .plant-head{
-        margin-left: -300px;
+        height: 138px;
+        width: 576px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 110px;
     }
+
     .plant-T{
         text-align: center;
+        /* border: 1px solid red; */
     }
     .plant-P{
         width: 380px;
         text-align: center;
+        margin-bottom: 120px;
+        /* margin-left: 90px; */
     }
+
+    .plant-section{
+        height: 900px;
+        width: 576px;
+        margin-top: 150px;
+        /* border: 1px solid red; */
+    }
+
+    .card-container{
+        height: 900px;
+        width: 576px;
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        gap: 15px;
+        grid: wrap;
+    }
+
+    /* Plants lover section */
+    .plant-lover-container{
+        margin-bottom: 40%;
+        /* overflow: scroll; */
+    }
+    .plant-section{
+        display: block;
+    }
+
+    .badges{
+        display: none;
+        margin-bottom: -45%;
+    }
+
+    .flower-image{
+        height: 450px;
+        width: 100%;
+        margin-top: 950px;
+    }
+
+    /* Latest deal */
+    .latest-deal-container{
+        height: 190px;
+        width: 576px;
+        margin: 0 auto;
+        margin-top: 1400px;
+    }
+
+    .latest-deal-T{
+        font-size: 3rem;
+        /* text-align: center; */
+    }
+
+    .latest-deal-P{
+        height: 70px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -30px;
+        font-size: 0.8rem;
+        /* border: 1px solid red; */
+        /* margin-bottom: 200px; */
+    }
+
+    
+    /* .card-1{
+        height: 340px;
+        width: 200px;
+        display: grid;
+        border: 1px solid red;
+        gap: -20px;
+    } */
+
+    /* .img-1{
+        height: 200px;
+        width: 198px;
+    } */
+
+    /* .btn-1{
+        height: 51px;
+        width: 198px;
+        margin-top: 15px;
+        border: none;
+        font-size: 1rem;
+        color: #FFFFFF;
+    } */
+
+    /* Plants lover section */
+
+    /* .plant-lover-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    } */
+
+
+    /* .plant-lover-details{
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .badges{
+        display: hide;
+        margin-bottom: -45%;
+    } */
+
+    /* .plant-lover-container{
+        margin-top: 40%;
+    }
+    .flower-image{
+        margin-top: 400px;
+    } */
+
+    /* .latest-deal-container{
+        margin-top: 25%;
+    } */
 
 }
