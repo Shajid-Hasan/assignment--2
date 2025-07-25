@@ -451,13 +451,21 @@
 /* Responsive Small device */
 
 @media screen and (max-width : 576px) {
+    /* *{
+        width: 576px;
+    } */
+
     .navbar, .nav-links, .flower-banner{
         margin: none;
         flex-direction: column;
     }
     .navbar{
         display: block;
-        margin-bottom: 170px;
+        margin-bottom: 380px;
+    }
+
+    .nav-links{
+        margin-top: 45px;
     }
 
     .flower-logo{
@@ -465,12 +473,30 @@
         width: 100px;
     }
 
+    .flower-banner-T{
+        margin-top: 170px;
+        font-size: 2.5rem;
+    }
+
+    .flower-banner-P{
+        margin-top: -15px;
+        width: 420px;
+    }
+
     .banner-img{
-        height: 245px;
-        width: 293px;
-        margin-top: -30px;
-        display: flex;
-        flex-wrap: wrap-reverse;
+        position: absolute;
+        margin-top: -530px;
+    }
+
+    .plant-head{
+        margin-left: -300px;
+    }
+    .plant-T{
+        text-align: center;
+    }
+    .plant-P{
+        width: 380px;
+        text-align: center;
     }
 
 }
