@@ -575,7 +575,108 @@
         /* margin-bottom: 200px; */
     }
 
+    /* Plant Shop */
+    .plant-shop {
+        flex-direction: column;
+    }
+
+    .ana{
+        display: block;
+    }
+
+    .zabo{
+        height: 175px;
+        width: 367px;
+        margin-top: 10px;
+    }
+
+    /* Plant Shop */
     
+    .absulate{
+        height: 27px;
+        width: 270px;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 12%;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.5rem;
+        z-index: 1;
+    }
+
+    .absulate-1{
+        height: 27px;
+        width: 270px;
+        position: absolute;
+        margin-top: 115px;
+        margin-left: 23%;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.2rem;
+        z-index: 1;
+    }
+
+    .absulate-2{
+        height: 27px;
+        width: 270px;
+        position: absolute;
+        margin-top: 55%;
+        margin-left: -40%;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.2rem;
+        z-index: 1;
+    }
+    .absulate-3{
+        height: 27px;
+        width: 350px;
+        position: absolute;
+        margin-top: 11%;
+        margin-left: 8%;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 2rem;
+        z-index: 1;
+    }
+    .absulate-4{
+        height: 27px;
+        width: 270px;
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 22%;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.7rem;
+        z-index: 1;
+    }
+    
+    /* Colorful Bounch */
+    .colorful-bounch{
+        margin-top: 200px;
+        margin-bottom: -250px;
+    }
+
+    .colorful-bounch-T{
+        margin-top: 60px;
+        font-size: 1.7rem;
+    }
+
+    .box{
+        height: 50px;
+        width: 245px;
+        margin-top: 20%;
+    }
+
+    .btn-2{
+        height: 55px;
+        width: 103px;
+        margin-top: 20.3%;
+    }
+
+    .color-img{
+        height: 276px;
+        width: 576px;
+    }
     /* .card-1{
         height: 340px;
         width: 200px;
