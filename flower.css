@@ -677,6 +677,25 @@
         height: 276px;
         width: 576px;
     }
+
+    /* Footer */
+
+    .footer-container, .part-2{
+        flex-direction: column;
+    }
+
+    .part-2{
+        margin-top: 20px;
+        /* border: 1px solid red; */
+    }
+
+    .link-part-1{
+        margin-bottom: -100px;
+    }
+
+    .footer-icon{
+        margin-top: 30px;
+    }
     /* .card-1{
         height: 340px;
         width: 200px;
